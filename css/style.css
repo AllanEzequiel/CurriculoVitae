@@ -1,0 +1,83 @@
+
+nav {
+    background-color: #fff;
+    width: 250px;
+    height: 100vh;
+    font-weight: 700;
+}
+
+
+main {
+    background-color: rgb(48, 184, 202);
+    width: 50vw;
+    height: 100vh;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    border: 8px solid #212529;
+    box-shadow: 0px 0px 10px 0px;
+}
+.btn1 {
+    background-color: Transparent;
+    font-weight: 600;
+    font-size: 25px;
+    color: #212529;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+
+.btn1:hover{
+    color: rgb(94, 90, 90);
+}
+
+.active {
+    color: rgb(94, 90, 90);
+}
+
+main div #nome {
+    margin-top: 200px;
+    font-size: 80px;
+}
+
+.dadosPessoais {
+    font-weight: 700;
+}
+
+#descricao {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#objetivo {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.m-top {
+    margin-top: 50px;
+}
+
+#linkedin:hover, #github:hover {
+    color: rgb(94, 90, 90);
+}
+
+
+#linkedin, #github {
+    color: #212529;
+    font-size: 35px;
+}
+
+.c-black-opac {
+    color: rgb(94, 90, 90);
+}
+
+footer {
+    font-weight: 300;
+    font-size: 16px;
+}

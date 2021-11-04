@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo Vitae</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="container-fluid">
+    <div class="row">
+        <nav class="col-3 d-flex flex-column align-items-center justify-content-center">
+            <div class=" mb-4">
+                <img src="./imagem/avatar.jpg" alt="Minha foto">
+            </div>
+            <div class="d-flex flex-column align-items-md-center">
+                <a href="#" onclick="clicarSobre()" id="ativarSobre" class="d-block btn1">
+                    SOBRE
+                </a>
+
+                <a href="#" onclick="clicarConhecimento()" id="ativarConhecimento" class="d-block btn1">
+                    CONHECIMENTO
+                </a>
+
+                <a href="#" onclick="clicarObjetivo()" id="ativarObjetivo" class="d-block btn1">
+                    OBJETIVO
+                </a>
+            </div>
+            <div class="mt-4">
+                <ul class="list-group list-group-horizontal">
+                    <li>
+                        <a id="linkedin" href="#" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a id="github" href="#" target="_blank" class="ms-3"></a>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+        <main class="col-9">
+            <div class="ms-5 col-11 d-flex flex-md-wrap"> 
+                <h1 id="nome" class="col-12"></h1>
+                <h4 id="endereco" class="dadosPessoais ms-1"></h4>
+                <h4 id="email" class="c-black-opac dadosPessoais ms-1"></h4>
+                <h4 id="numero" class="dadosPessoais ms-1"></h4>
+            </div>
+            <div class="ms-5">
+                <div class="m-top">             
+                    <p id="descricao" class="col-9"></p>
+                    <h1 id="habilidades" class="col-1"></h1>
+                    <p id="objetivo" class="col-9"></p>
+                </div>    
+            </div>
+                <footer id="footer" class="pe-3 position-absolute bottom-0 end-0"></footer>
+        </main>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
