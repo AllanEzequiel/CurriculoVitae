@@ -7,7 +7,7 @@ const sobre = {
     endereco:'Rua 29 de Dezembro, 69° Esteio RS',
     email:'allan.ezequiel.s@gmail.com',
     celular:'(51) 99767-7445',
-    descricao:'Atualmente iniciei no programa Starter 4ª edição da Growdev que é um treinamento intensivo que visa a formação de Desenvolvedores Full Stack com os conhecimentos e experiência necessários para desenvolver aplicações utilizando as melhores práticas e tecnologias do mercado. Busco uma oportunidade para tornar um profissional completo e de qualidade para desenvolver meu trabalho da melhor maneira possível. Continuar adquirindo experiência e me dedicando a aprender cada vez mais!',
+    descricao:'Atualmente iniciei no programa Starter 4ª edição da Growdev que é um treinamento intensivo que visa a formação de Desenvolvedores Full Stack com os conhecimentos e experiência necessários para desenvolver aplicações utilizando as melhores práticas e tecnologias do mercado. Busco uma oportunidade para me tornar um profissional completo e de qualidade, para desenvolver meu trabalho da melhor maneira possível. Continuar adquirindo experiência e me dedicando a aprender cada vez mais!',
     footer:'Desenvolvido por Allan Ezequiel .Todos os direitos reservados ©',
     redesSociais:[{
         iconClass:'<i class="fab fa-linkedin-in" id="icon"></i>',
